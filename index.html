@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <title>Webpage Template</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#list-example" data-offset="0">
 <!-- Banner Start -->
 <div class="container-fluid banner">
-    <div class="row">
+    <div class="row banner-title">
         <div class="col-6">
             <p>text hold</p>
         </div>
@@ -20,24 +20,26 @@
     </div>
     <div class="row">
         <div class="col-12 text-center">
-            <img src="img/chevron-bottom.svg">
+            <a href="#my-content">
+                <img src="img/chevron-bottom.svg">
+            </a>
         </div>
     </div>
 </div>
 <!-- Banner End -->
 <!-- Content Start -->
-<div class="container">
+<div class="container" id="my-content">
     <div class="row">
         <div class="col-4">
             <div id="list-example" class="list-group">
                 <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-2">Item2</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
                 <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
                 <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
             </div>
         </div>
         <div class="col-8">
-            <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+            <div class="scrollspy-example">
                 <h4 id="list-item-1">Item 1</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type

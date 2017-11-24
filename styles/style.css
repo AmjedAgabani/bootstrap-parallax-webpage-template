@@ -1,5 +1,18 @@
+body {
+    position: relative;
+}
+
 .banner {
     height: 560px;
-    background: url("http://via.placeholder.com/1920x540") no-repeat;
     background-size: cover;
+    background: url("http://via.placeholder.com/1920x540") no-repeat center;
+}
+
+.banner-title{
+    height: 480px;
+}
+
+#list-example {
+    position: sticky;
+    top: 3rem;
 }
