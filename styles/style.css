@@ -1,0 +1,5 @@
+.banner {
+    height: 560px;
+    background: url("http://via.placeholder.com/1920x540") no-repeat;
+    background-size: cover;
+}
