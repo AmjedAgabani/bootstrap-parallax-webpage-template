@@ -3,16 +3,86 @@ body {
 }
 
 .banner {
-    height: 560px;
+    background: url("http://via.placeholder.com/1920x600") no-repeat center;
     background-size: cover;
-    background: url("http://via.placeholder.com/1920x540") no-repeat center;
+    max-height: 600px;
+    width: auto;
 }
 
-.banner-title{
+.banner-tint {
+    background-color: rgba(205, 163, 79, 0.8);
+}
+
+.banner-title {
     height: 480px;
+    padding-right: 25px;
 }
 
 #list-example {
     position: sticky;
     top: 3rem;
+}
+
+.color-daisy {
+    background-color: #e9e7da;
+}
+
+.color-stem,
+.color-stem .list-group-item {
+    background-color: #636b46;
+}
+
+.color-stem .list-group-item {
+    border: none;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.skip-to-content {
+    height: 50px;
+    width: 50px;
+}
+
+h1 {
+    font-family: "Alegreya Sans", "Arial", sans-serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #e9e7da;
+}
+
+h4 {
+    color: #cda34f;
+    font-family: "Alegreya Sans", "Arial", sans-serif;
+    font-size: 35px;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+}
+
+p {
+    color: #373f27;
+    font-family: "Alegreya Sans", "Arial", sans-serif;
+    font-size: 18px;
+    padding-bottom: 4rem;
+}
+
+.list-group-item-action {
+    color: #e9e7da;
+    font-family: "Alegreya Sans", "Arial", sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.list-group-item.active {
+    color: #cda34f;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }

@@ -9,17 +9,21 @@
 </head>
 <body data-spy="scroll" data-target="#list-example" data-offset="0">
 <!-- Banner Start -->
-<div class="container-fluid banner">
-    <div class="row banner-title align-items-center">
-        <div class="offset-6 col-6 text-right">
-            <p>text hold</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 text-center">
-            <a href="#my-content">
-                <img src="img/chevron-bottom.svg">
-            </a>
+<div class="container-fluid no-padding">
+    <div class="banner">
+        <div class="banner-tint">
+            <div class="row banner-title align-items-center">
+                <div class="offset-6 col-6 text-right">
+                    <h1>Insert your title here</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="#my-content">
+                        <img class="skip-to-content" src="img/chevron-bottom.svg">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -27,7 +31,7 @@
 <!-- Content Start -->
 <div class="container" id="my-content">
     <div class="row">
-        <div class="col-4">
+        <div class="col-4 color-stem">
             <div id="list-example" class="list-group">
                 <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
                 <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
@@ -35,7 +39,7 @@
                 <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
             </div>
         </div>
-        <div class="col-8">
+        <div class="col-8 color-daisy">
             <div class="scrollspy-example">
                 <h4 id="list-item-1">Item 1</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -95,6 +99,9 @@
 
 </div>
 <!-- Content End -->
+<!-- Footer Start -->
+
+<!-- Footer End -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
