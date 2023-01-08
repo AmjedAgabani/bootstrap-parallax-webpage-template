@@ -1,4 +1,4 @@
-# Webpage tempalte
+# Bootstrap parallax template
 
 Simple scrollable webpage using the parallax effect technique and Bootstrap
 
